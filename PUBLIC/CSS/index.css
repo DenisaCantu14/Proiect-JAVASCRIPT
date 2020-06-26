@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body
+{background-color:gray;
+background-image: url("https://www.pinclipart.com/picdir/big/23-236035_printable-maze-puzzle-clipart.png");
+text-align: center;
+display: list-item;
+margin-left:auto;
+margin-right: auto;
+}
+
+h1{
+
+    font-size: 65px;
+    color:rgb(223, 209, 19);
+
+    
+    
+}
+#t
+{
+  display:inline-block;
+}
+.titlu span{
+ 
+  opacity:0;
+  transform: translateY(50px);
+  transition: all 1s ease;
+  display:inline-block;
+  color:red;
+
+  
+  
+  
+}
+
+span.fade
+{ 
+  opacity:1;
+  
+  color:rgb(223, 209, 19);
+  transform: translateY(0px);
+ 
+ 
+ 
+}
+
+#play
+{
+    background-color: rgb(223, 209, 19);
+    margin-bottom: 20px;
+    margin-top: 200px;
+    font-size: 40px;
+    width: auto;
+    height: auto;
+    padding:15px;
+    border: none;
+}
+
+input[name=uname],input[type=email] , .input-container{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+label, p
+{
+  font-weight: bold;
+}
+
+button {
+
+  padding: 14px 20px;
+  margin: 7px 50px;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: rgb(223, 209, 19);
+
+}
+.clasament_D, .clasament_R
+{
+  display: inline;
+  margin: 0em;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: rgb(223, 209, 19);
+}
+.profile_img {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.info {
+  padding: 16px;
+  
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+ #level1
+ {
+    background-color: rgb(223, 209, 19);
+     
+ }
+ form>input{
+     margin-top: 250px;
+     font-size: 50px;
+ }
+.afisare {
+  display: none; 
+  position: fixed; 
+  z-index: 33; 
+  top: 0;
+  margin-left: 250px;
+  width: 70%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: #fefefe;
+  padding-top: 40px;
+}
+#msj
+{
+  width: 40%;
+  height: 40%;
+ position: absolute;
+  z-index: 35;
+  margin-left: 430px;
+  margin-top: 170px;
+  border:solid black 2px ;
+}
+.info {
+ 
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: yellow;
+  cursor: pointer;
+}
+
+.submit
+{
+    width: auto;
+  
+}
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+.wall {
+  color:black;
+  background-color: black;
+  width:18px;
+  height:18px;
+ 
+}
+
+.freespace {
+  color:grey;
+  background-color: grey;
+  width:18px;
+  height:18px;
+  
+}
+
+
+
+#player {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  display: block;
+  z-index: 10000;
+}
+
+#joc
+{
+  display: flex;
+  
+}
+
+#timer
+{
+  background-color:rgb(223, 209, 19); 
+  border-radius: 20%;
+  width: 130px;
+  height: 80px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 20px;
+  display: none;
+  font-size: 30px;
+  padding-top: 35px;
+ 
+ 
+
+}
+.item
+{
+  border: rgb(223, 209, 19) solid;
+  
+}
+
+#pause
+{
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  top: 110px;
+  left:330px;
+  height: 50%; 
+  width: 50%; 
+  overflow: auto; 
+  padding-top: 40px;
+ 
+}
+
+#message
+{
+  background-color:rgb(223, 209, 19); 
+  border-radius: 20%;
+  top:270px;
+  width: 130px;
+  height: 150px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 20px;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 30px;
+  position: fixed;
+}
+
+.helloUser
+{
+  background-color:rgb(238, 225, 48); 
+
+  width: auto;
+  height: auto;
+  margin :auto;
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 35px;
+}
+.input-container{
+  display:flex;
+  align-items: center;
+  
+  
+}
+
+.input-container input{
+  border:0;
+  outline:none;
+  width:100%;
+}
+i
+{
+  color:rgb(105, 102, 102);
+}
+.input-container:hover{
+  border:solid black 2px;
+}
+.nume {
+  text-decoration: underline;
+}

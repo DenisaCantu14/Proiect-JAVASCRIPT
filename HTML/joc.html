@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> TryToEscape</title>
+    <link rel="icon" type="image/x-icon"
+        href="https://www.pinclipart.com/picdir/big/191-1914876_despicable-me-3-minion-money-wallet-birthday-card.png" />
+    <link rel="stylesheet" type="text/css" href="/CSS/index.css">
+</head>
+
+<body>
+    <div id="gameBg">
+        <div id='joc'>
+            <table>
+            </table>
+            <div>
+                <p id="timer"></p>
+                <div id="hearts">
+                    <p class="life"></p>
+                    <p class="life"></p>
+                    <p class="life"></p>
+                </div>
+                <div id="message"></div>
+            </div>
+        </div>
+    </div>
+    <div class="afisare" id="setari">
+        <span class="close" title="Close">&times;</span>
+        <div class="info">
+            <h1>Settings</h1>
+            <label for="Background">Choose background color:</label>
+            <select id="color">
+                <option>grey</option>
+                <option>plum</option>
+                <option>black</option>
+                <option>pink</option>
+                <option>blue</option>
+                <option>random</option>
+            </select><br><br>
+            <p>Select your favorite music:</p>
+            <input type="radio" id="melody1" name="melody" value="melody1">
+            <label for="melody1">Symbolism-Electro - Light</label><br>
+            <input type="radio" id="melody2" name="melody" value="melody2">
+            <label for="melody2">Lost in sound - Roy Knox</label><br>
+            <input type="radio" id="melody3" name="melody" value="melody3">
+            <label for="melody3">Link - Jim Yosef</label><br><br>
+            <label for="Character">Choose yout character:</label>
+            <select id="character">
+                <option>Stuart</option>
+                <option>Dave</option>
+            </select><br><br>
+            <button type="button" class="submit" id="save">Save</button>
+        </div>
+        
+    </div>
+    <div id="pause">
+        <button type="button" class="submit" id="resume">Resume</button><br>
+        <button type="button" class="submit" id="restart">Restart</button><br>
+        <form action="../index.html">
+            <button class="submit" id="quit">Quit</button><br>
+        </form>
+        <button type="button" class="submit" id="settings">Settings</button><br>
+    </div>
+    <script src="/JAVASCRIPT/maze.js"></script>
+    <script src="/JAVASCRIPT/ravase.js"></script>
+    <script src="/JAVASCRIPT/joc.js"></script>
+    <script src="/JAVASCRIPT/metode.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</body>

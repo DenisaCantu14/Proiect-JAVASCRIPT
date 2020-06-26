@@ -1,0 +1,68 @@
+[
+  {
+    "username": "hghds",
+    "email": "denisa.cantu@yahoo.comddm",
+    "password": "Acasa12!",
+    "gender": "female",
+    "age": "48",
+    "id": "4mrll7ro4h",
+    "score": 0,
+    "date": [],
+    "attempts": 0,
+    "lastDate": "Wednesday, June 17th, 2020, 12:23:15 AM",
+    "ip": "192.168.1.2",
+    "visited": 1,
+    "scoreDate": "Wednesday, June 17th, 2020, 12:23:15 AM",
+    "deleteScore": 1
+  },
+  {
+    "username": "larisa14",
+    "email": "denisa.cantu@yahoo.com",
+    "password": "aCASA12!",
+    "gender": "female",
+    "age": "48",
+    "id": "jcp75gfboz",
+    "score": 0,
+    "date": [
+      "2020-06-26T08:54:55.429Z"
+    ],
+    "attempts": 1,
+    "lastDate": "Friday, June 26th, 2020, 11:55:03 AM",
+    "ip": "192.168.1.4",
+    "visited": 176,
+    "scoreDate": "Wednesday, June 24th, 2020, 9:15:45 PM",
+    "deleteScore": 1
+  },
+  {
+    "username": "denisa",
+    "email": "denisa.cantu1@yahoo.com",
+    "password": "Acas12!1",
+    "gender": "male",
+    "age": "48",
+    "id": "7gz3rd93rv",
+    "score": 0,
+    "date": [],
+    "attempts": 0,
+    "lastDate": "Friday, June 26th, 2020, 1:12:36 PM",
+    "ip": "192.168.1.4",
+    "visited": 1,
+    "scoreDate": "Friday, June 26th, 2020, 1:12:36 PM",
+    "deleteScore": 1
+  },
+  {
+    "username": "aaa",
+    "email": "denisa.cantu@yahoo.com",
+    "password": "aCASA12!",
+    "gender": "male",
+    "age": "48",
+    "id": "be1tltwpm9",
+    "score": 0,
+    "date": [],
+    "attempts": 5,
+    "lastDate": "Friday, June 26th, 2020, 1:17:25 PM",
+    "ip": "192.168.1.4",
+    "visited": 10,
+    "scoreDate": "Friday, June 26th, 2020, 1:13:05 PM",
+    "deleteScore": 0
+  }
+]
